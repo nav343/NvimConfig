@@ -1,0 +1,26 @@
+call plug#begin('~/.config/nvim/autoload/plugged')
+    Plug 'sheerun/vim-polyglot'
+    Plug 'scrooloose/NERDTree'
+    Plug 'jiangmiao/auto-pairs'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'joshdick/onedark.vim'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'tami5/lspsaga.nvim', { 'branch': 'nvim6.0' }
+    Plug 'folke/lsp-colors.nvim'
+    Plug 'L3MON4D3/LuaSnip'
+    Plug 'hrsh7th/cmp-nvim-lsp'
+    Plug 'hrsh7th/cmp-buffer'
+    Plug 'hrsh7th/nvim-cmp'
+    Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+    Plug 'onsails/lspkind-nvim'
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+    Plug 'windwp/nvim-autopairs'
+    Plug 'windwp/nvim-ts-autotag'
+    Plug 'andweeb/presence.nvim'
+    Plug 'KabbAmine/vCoolor.vim'
+    Plug 'overcache/NeoSolarized'
+call plug#end()
