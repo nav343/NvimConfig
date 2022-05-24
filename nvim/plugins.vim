@@ -23,4 +23,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'andweeb/presence.nvim'
     Plug 'KabbAmine/vCoolor.vim'
     Plug 'overcache/NeoSolarized'
+    Plug 'mhinz/vim-startify'
 call plug#end()

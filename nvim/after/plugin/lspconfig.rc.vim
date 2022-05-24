@@ -112,6 +112,12 @@ nvim_lsp.rust_analyzer.setup {
     }
 }
 
+nvim_lsp.vimls.setup {
+  on_attach = on_attach,
+  filetypes = { "vim" },
+  capabilities = capabilities
+  }
+
 nvim_lsp.diagnosticls.setup {
   on_attach = on_attach,
   filetypes = { 'javascript', 'javascriptreact', 'json', 'typescript', 'typescriptreact', 'css', 'less', 'scss', 'pandoc' },
